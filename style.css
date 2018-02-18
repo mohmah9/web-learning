@@ -1,0 +1,7 @@
+body{
+    direction:rtl;
+    background-color: aqua;
+}
+#test{
+    direction: rtl;
+}

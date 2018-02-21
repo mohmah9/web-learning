@@ -1,7 +1,83 @@
-body{
-    direction:rtl;
-    background-color: aqua;
+html{
+    font-family: Arial;
+    overflow: auto;
+    background-image: url('mamaly.jpg');
+    background-repeat: no-repeat;
+    background-position: -180px -200px;
+    background-attachment: fixed;
+
 }
-#test{
+body{
+    margin: 0px 0px 0px 0px;
     direction: rtl;
+}
+.farsi {
+    direction: rtl;
+}
+.title{
+    color: #e9f197;
+    background-color: rgba(0, 0, 255, 0.7);
+    margin: 0;
+    padding: 10px;
+}
+.para{
+    color: chartreuse;
+}
+.list{
+    color: darkorchid;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+.text{
+    color: yellowgreen;
+}
+.form{
+    color: blueviolet;
+    background-image: url('2369559373.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    border-style: outset;
+    border-width: 5px 10px 20px 30px;
+    border-radius: 40px;
+}
+.googl{
+    width: 170px;
+    height: 100px;
+    position: relative;
+
+}
+.body{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: underline;
+}
+.table{
+    position: relative;
+    left: 702px;
+}
+.repeat{
+
+}
+.hove{
+    width: 100%;
+    height: 100%;
+}
+.lawrence{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+}
+.hove:hover .lawrence{
+    width: 80%;
+
 }
